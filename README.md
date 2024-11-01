@@ -6,6 +6,7 @@ height-balanced binary search tree.
 from typing import List, Optional
 
 class Solution:
+
     def sortedArrayToBST(self, nums: List[int]) -> Optional['TreeNode']:
         if not nums:
             return None
